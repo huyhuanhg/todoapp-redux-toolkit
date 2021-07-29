@@ -1,0 +1,19 @@
+.edit-form-wrap {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.btn-edit {
+    background-color: yellow;
+    color: green;
+    border: 1px solid yellow;
+    font-weight: bold;
+}
+
+.btn-delete {
+    background-color: #fa4f4f;
+    color: white;
+    border: 1px solid #fa4f4f;
+    font-weight: bold;
+}

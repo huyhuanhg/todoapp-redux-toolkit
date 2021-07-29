@@ -1,0 +1,31 @@
+.to-do-list {
+    height: calc(100vh - 56px);
+    overflow-y: scroll;
+}
+
+.task-list-header {
+    position: fixed;
+    top: 56px;
+    left: calc((300px + (100vw - 300px) / 2));
+    transform: translateX(-50%);
+    width: calc(100% - 330px);
+
+    background-color: white;
+    z-index: 1;
+}
+
+.ant-card-extra {
+    margin-left: 0 !important;
+    width: 100%;
+    text-align: right;
+}
+
+.task-list {
+    margin-top: 363px;
+}
+
+.task-list > p {
+    text-align: center;
+    font-size: 24px;
+    color: #9c3535;
+}
